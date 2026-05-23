@@ -1,0 +1,257 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.15
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Nov  6 2025, 07:48:09) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 9.0.7 with 4.2.2 msw (phoenix) wxWidgets 3.2.8
+INFO: kbplacer_dialog.py:689: Language: en
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "C:\\Users\\flamm\\Downloads\\keyboard-layout (1).json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "S{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 8.0, "y": -10.0, "orientation": 270.0, "side": "Front"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 0.65, "y": -3.8, "orientation": 180.0, "side": "Front"}, "template_path": "", "start_index": -1}, {"annotation_format": "CL{}", "position_option": "Custom", "position": {"x": -6.0, "y": -8.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+WARNING: key_placer.py:134: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:141: Switches by nets: {}
+DEBUG: key_placer.py:145: Diodes by switch: {'S1': ['D1'], 'S2': ['D2'], 'S9': ['D9'], 'S3': ['D3'], 'S7': ['D7'], 'S14': ['D14'], 'S11': ['D11'], 'S4': ['D4'], 'S5': ['D5'], 'S6': ['D6'], 'S8': ['D8'], 'S10': ['D10'], 'S12': ['D12'], 'S13': ['D13'], 'S15': ['D15'], 'S18': ['D18'], 'S20': ['D20'], 'S16': ['D16'], 'S21': ['D21'], 'S19': ['D19'], 'S17': ['D17']}
+INFO: kle_serial.py:1016: User layout: [['Num Lock', '-', '-', '-', '-'], ['/', {'x': 3}, '-'], ['7\nHome', {'x': 3}, '-'], ['8\n↑', {'x': 3}, '9\nPgUp'], ['1\nEnd', '4\n←', '5', '6\n→', '6\n→'], ['*', '2\n↓', '.\nDel', '3\nPgDn', '3\nPgDn']]
+DEBUG: key_placer.py:751: Using key 1U distance: (19.05, 19.05) mm
+DEBUG: key_placer.py:757: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1110: Layout with: x_ortholinear_keys=21, y_ortholinear_keys=21, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1135: Layout tagged: [<KeyboardTag.ORTHOLINEAR: 1>]
+DEBUG: board_modifier.py:94: Setting S1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting S2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting S3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting S4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting S5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting S6 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:94: Setting S7 footprint position: (114300000, 57150000)
+DEBUG: board_modifier.py:94: Setting S8 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:94: Setting S9 footprint position: (114300000, 76200000)
+DEBUG: board_modifier.py:94: Setting S10 footprint position: (38100000, 95250000)
+DEBUG: board_modifier.py:94: Setting S11 footprint position: (114300000, 95250000)
+DEBUG: board_modifier.py:94: Setting S12 footprint position: (38100000, 114300000)
+DEBUG: board_modifier.py:94: Setting S13 footprint position: (57150000, 114300000)
+DEBUG: board_modifier.py:94: Setting S14 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:94: Setting S15 footprint position: (95250000, 114300000)
+DEBUG: board_modifier.py:94: Setting S16 footprint position: (114300000, 114300000)
+DEBUG: board_modifier.py:94: Setting S17 footprint position: (38100000, 133350000)
+DEBUG: board_modifier.py:94: Setting S18 footprint position: (57150000, 133350000)
+DEBUG: board_modifier.py:94: Setting S19 footprint position: (76200000, 133350000)
+DEBUG: board_modifier.py:94: Setting S20 footprint position: (95250000, 133350000)
+DEBUG: board_modifier.py:94: Setting S21 footprint position: (114300000, 133350000)
+INFO: key_placer.py:1123: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=8.0, y=-10.0, orientation=270.0, side=<Side.FRONT: 'Front'>), template_path='', start_index=-1)]
+DEBUG: board_modifier.py:107: Getting S1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting D1 footprint position: (46100000, 28100000)
+DEBUG: board_modifier.py:107: Getting S2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting D2 footprint position: (65150000, 28100000)
+DEBUG: board_modifier.py:107: Getting S3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting D3 footprint position: (84200000, 28100000)
+DEBUG: board_modifier.py:107: Getting S4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting D4 footprint position: (103250000, 28100000)
+DEBUG: board_modifier.py:107: Getting S5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting D5 footprint position: (122300000, 28100000)
+DEBUG: board_modifier.py:107: Getting S6 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:94: Setting D6 footprint position: (46100000, 47150000)
+DEBUG: board_modifier.py:107: Getting S7 footprint position: (114300000, 57150000)
+DEBUG: board_modifier.py:94: Setting D7 footprint position: (122300000, 47150000)
+DEBUG: board_modifier.py:107: Getting S8 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:94: Setting D8 footprint position: (46100000, 66200000)
+DEBUG: board_modifier.py:107: Getting S9 footprint position: (114300000, 76200000)
+DEBUG: board_modifier.py:94: Setting D9 footprint position: (122300000, 66200000)
+DEBUG: board_modifier.py:107: Getting S10 footprint position: (38100000, 95250000)
+DEBUG: board_modifier.py:94: Setting D10 footprint position: (46100000, 85250000)
+DEBUG: board_modifier.py:107: Getting S11 footprint position: (114300000, 95250000)
+DEBUG: board_modifier.py:94: Setting D11 footprint position: (122300000, 85250000)
+DEBUG: board_modifier.py:107: Getting S12 footprint position: (38100000, 114300000)
+DEBUG: board_modifier.py:94: Setting D12 footprint position: (46100000, 104300000)
+DEBUG: board_modifier.py:107: Getting S13 footprint position: (57150000, 114300000)
+DEBUG: board_modifier.py:94: Setting D13 footprint position: (65150000, 104300000)
+DEBUG: board_modifier.py:107: Getting S14 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:94: Setting D14 footprint position: (84200000, 104300000)
+DEBUG: board_modifier.py:107: Getting S15 footprint position: (95250000, 114300000)
+DEBUG: board_modifier.py:94: Setting D15 footprint position: (103250000, 104300000)
+DEBUG: board_modifier.py:107: Getting S16 footprint position: (114300000, 114300000)
+DEBUG: board_modifier.py:94: Setting D16 footprint position: (122300000, 104300000)
+DEBUG: board_modifier.py:107: Getting S17 footprint position: (38100000, 133350000)
+DEBUG: board_modifier.py:94: Setting D17 footprint position: (46100000, 123350000)
+DEBUG: board_modifier.py:107: Getting S18 footprint position: (57150000, 133350000)
+DEBUG: board_modifier.py:94: Setting D18 footprint position: (65150000, 123350000)
+DEBUG: board_modifier.py:107: Getting S19 footprint position: (76200000, 133350000)
+DEBUG: board_modifier.py:94: Setting D19 footprint position: (84200000, 123350000)
+DEBUG: board_modifier.py:107: Getting S20 footprint position: (95250000, 133350000)
+DEBUG: board_modifier.py:94: Setting D20 footprint position: (103250000, 123350000)
+DEBUG: board_modifier.py:107: Getting S21 footprint position: (114300000, 133350000)
+DEBUG: board_modifier.py:94: Setting D21 footprint position: (122300000, 123350000)
+DEBUG: board_modifier.py:107: Getting SCL_H10 footprint position: (-42930000, 118915000)
+DEBUG: board_modifier.py:107: Getting SDA_H9 footprint position: (-42930000, 125465000)
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (-32955000, -16755000)
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (-32955000, -12105000)
+DEBUG: key_placer.py:887: Placing additional elements for S2
+DEBUG: board_modifier.py:107: Getting S2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED2 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED2 footprint position: (57800000, 34300000)
+DEBUG: board_modifier.py:84: Searching for optional CL2 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL2 footprint position: (51150000, 30100000)
+DEBUG: key_placer.py:887: Placing additional elements for S3
+DEBUG: board_modifier.py:107: Getting S3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED3 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED3 footprint position: (76850000, 34300000)
+DEBUG: board_modifier.py:84: Searching for optional CL3 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL3 footprint position: (70200000, 30100000)
+DEBUG: key_placer.py:887: Placing additional elements for S1
+DEBUG: board_modifier.py:107: Getting S1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED1 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED1 footprint position: (38750000, 34300000)
+DEBUG: board_modifier.py:84: Searching for optional CL1 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL1 footprint position: (32100000, 30100000)
+DEBUG: key_placer.py:887: Placing additional elements for S4
+DEBUG: board_modifier.py:107: Getting S4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED4 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED4 footprint position: (95900000, 34300000)
+DEBUG: board_modifier.py:84: Searching for optional CL4 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL4 footprint position: (89250000, 30100000)
+DEBUG: key_placer.py:887: Placing additional elements for S9
+DEBUG: board_modifier.py:107: Getting S9 footprint position: (114300000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED9 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED9 footprint position: (114950000, 72400000)
+DEBUG: board_modifier.py:84: Searching for optional CL9 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL9 footprint position: (108300000, 68200000)
+DEBUG: key_placer.py:887: Placing additional elements for S5
+DEBUG: board_modifier.py:107: Getting S5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED5 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED5 footprint position: (114950000, 34300000)
+DEBUG: board_modifier.py:84: Searching for optional CL5 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL5 footprint position: (108300000, 30100000)
+DEBUG: key_placer.py:887: Placing additional elements for S11
+DEBUG: board_modifier.py:107: Getting S11 footprint position: (114300000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED11 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED11 footprint position: (114950000, 91450000)
+DEBUG: board_modifier.py:84: Searching for optional CL11 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL11 footprint position: (108300000, 87250000)
+DEBUG: key_placer.py:887: Placing additional elements for S15
+DEBUG: board_modifier.py:107: Getting S15 footprint position: (95250000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED15 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED15 footprint position: (95900000, 110500000)
+DEBUG: board_modifier.py:84: Searching for optional CL15 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL15 footprint position: (89250000, 106300000)
+DEBUG: key_placer.py:887: Placing additional elements for S17
+DEBUG: board_modifier.py:107: Getting S17 footprint position: (38100000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED17 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED17 footprint position: (38750000, 129550000)
+DEBUG: board_modifier.py:84: Searching for optional CL17 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL17 footprint position: (32100000, 125350000)
+DEBUG: key_placer.py:887: Placing additional elements for S8
+DEBUG: board_modifier.py:107: Getting S8 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED8 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED8 footprint position: (38750000, 72400000)
+DEBUG: board_modifier.py:84: Searching for optional CL8 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL8 footprint position: (32100000, 68200000)
+DEBUG: key_placer.py:887: Placing additional elements for S10
+DEBUG: board_modifier.py:107: Getting S10 footprint position: (38100000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED10 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED10 footprint position: (38750000, 91450000)
+DEBUG: board_modifier.py:84: Searching for optional CL10 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL10 footprint position: (32100000, 87250000)
+DEBUG: key_placer.py:887: Placing additional elements for S6
+DEBUG: board_modifier.py:107: Getting S6 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED6 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED6 footprint position: (38750000, 53350000)
+DEBUG: board_modifier.py:84: Searching for optional CL6 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL6 footprint position: (32100000, 49150000)
+DEBUG: key_placer.py:887: Placing additional elements for S7
+DEBUG: board_modifier.py:107: Getting S7 footprint position: (114300000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED7 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED7 footprint position: (114950000, 53350000)
+DEBUG: board_modifier.py:84: Searching for optional CL7 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL7 footprint position: (108300000, 49150000)
+DEBUG: key_placer.py:887: Placing additional elements for S12
+DEBUG: board_modifier.py:107: Getting S12 footprint position: (38100000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED12 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED12 footprint position: (38750000, 110500000)
+DEBUG: board_modifier.py:84: Searching for optional CL12 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL12 footprint position: (32100000, 106300000)
+DEBUG: key_placer.py:887: Placing additional elements for S13
+DEBUG: board_modifier.py:107: Getting S13 footprint position: (57150000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED13 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED13 footprint position: (57800000, 110500000)
+DEBUG: board_modifier.py:84: Searching for optional CL13 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL13 footprint position: (51150000, 106300000)
+DEBUG: key_placer.py:887: Placing additional elements for S14
+DEBUG: board_modifier.py:107: Getting S14 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED14 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED14 footprint position: (76850000, 110500000)
+DEBUG: board_modifier.py:84: Searching for optional CL14 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL14 footprint position: (70200000, 106300000)
+DEBUG: key_placer.py:887: Placing additional elements for S16
+DEBUG: board_modifier.py:107: Getting S16 footprint position: (114300000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED16 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED16 footprint position: (114950000, 110500000)
+DEBUG: board_modifier.py:84: Searching for optional CL16 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL16 footprint position: (108300000, 106300000)
+DEBUG: key_placer.py:887: Placing additional elements for S19
+DEBUG: board_modifier.py:107: Getting S19 footprint position: (76200000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED19 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED19 footprint position: (76850000, 129550000)
+DEBUG: board_modifier.py:84: Searching for optional CL19 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL19 footprint position: (70200000, 125350000)
+DEBUG: key_placer.py:887: Placing additional elements for S21
+DEBUG: board_modifier.py:107: Getting S21 footprint position: (114300000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED21 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED21 footprint position: (114950000, 129550000)
+DEBUG: board_modifier.py:84: Searching for optional CL21 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL21 footprint position: (108300000, 125350000)
+DEBUG: key_placer.py:887: Placing additional elements for S18
+DEBUG: board_modifier.py:107: Getting S18 footprint position: (57150000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED18 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED18 footprint position: (57800000, 129550000)
+DEBUG: board_modifier.py:84: Searching for optional CL18 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL18 footprint position: (51150000, 125350000)
+DEBUG: key_placer.py:887: Placing additional elements for S20
+DEBUG: board_modifier.py:107: Getting S20 footprint position: (95250000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED20 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED20 footprint position: (95900000, 129550000)
+DEBUG: board_modifier.py:84: Searching for optional CL20 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:94: Setting CL20 footprint position: (89250000, 125350000)
+DEBUG: key_placer.py:887: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (-32955000, -16755000)
+DEBUG: board_modifier.py:84: Searching for optional LEDW1 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: board_modifier.py:84: Searching for optional CLW1 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SCL_H10
+DEBUG: board_modifier.py:107: Getting SCL_H10 footprint position: (-42930000, 118915000)
+DEBUG: board_modifier.py:84: Searching for optional LEDCL_H10 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: board_modifier.py:84: Searching for optional CLCL_H10 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SW2
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (-32955000, -12105000)
+DEBUG: board_modifier.py:84: Searching for optional LEDW2 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: board_modifier.py:84: Searching for optional CLW2 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:887: Placing additional elements for SDA_H9
+DEBUG: board_modifier.py:107: Getting SDA_H9 footprint position: (-42930000, 125465000)
+DEBUG: board_modifier.py:84: Searching for optional LEDDA_H9 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: board_modifier.py:84: Searching for optional CLDA_H9 footprint in C:\Repos\Macro-Pro - RP2040\pcb\Macro Pad Pro.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing a02f96ae-9809-4bd9-b238-eb93b840ea30
+INFO: key_placer.py:526: Removing 5e9ac6ec-28f9-4522-b12e-1d705c0deacc
+INFO: key_placer.py:526: Removing 174487b5-4ed9-4e61-927f-bd04c1078b13
+INFO: key_placer.py:526: Removing 4990e8a8-a73b-45a0-bea3-9e99b5d10a4e
+INFO: key_placer.py:526: Removing e65f8346-4f72-42c3-b8ac-846dab486bc7
+INFO: key_placer.py:526: Removing 8ecb3fd6-6003-4b3c-b9b1-59a78d809d19
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing a4e34b3f-f99a-4957-91f3-49478e48d216
+INFO: key_placer.py:526: Removing 0fb89a01-76bc-427c-a38e-4e1af6ac0caf
+INFO: key_placer.py:526: Removing bbf702d7-8430-4123-ae99-91d26fa28e9b
+INFO: key_placer.py:526: Removing 91eba99a-5cf0-4a3f-a285-01174a0fe56c
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing 275ab4dc-a330-4bac-98db-b490ede8d204
+INFO: key_placer.py:526: Removing 79614731-ca83-48e0-9170-02c4616c2e37
+INFO: key_placer.py:526: Removing 7cfb2594-044e-4435-95ce-67797fcdd24f
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing 6091085f-5358-4755-a957-e24477838a5c
+INFO: key_placer.py:526: Removing 9ed73b49-3326-4395-b549-8b6de2959f02
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing 62d162dd-d0e8-44b9-844b-58038adf42c0
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing c622eeea-8add-49bc-9f56-f2757dad5de9
+INFO: key_placer.py:514: Removing dangling tracks
+INFO: key_placer.py:526: Removing 4a869b61-66a3-4903-9240-9caef7657eca
+INFO: key_placer.py:514: Removing dangling tracks
