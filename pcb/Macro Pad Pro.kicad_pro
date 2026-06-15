@@ -78,6 +78,54 @@
       ],
       "drc_exclusions": [
         [
+          "copper_edge_clearance|92300000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|73268acb-865d-4193-bb47-d5d023760a1a",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|93100000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|c081f381-2a4f-4551-89ae-046836d1ffdf",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|93900000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|af69a808-5f49-45c4-9dec-b0edb29da115",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|94400000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|19ae5a65-8b4a-4a35-9026-1240cd96c272",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|94900000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|9574fb48-12d4-48dd-b7a1-038cd8ed8911",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|95400000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|d9d84671-d445-4465-96b0-0da0e6d9eeb7",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|95900000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|682fe97f-d8d6-40d1-ac8a-d768d64ac28c",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|96400000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|ff9d4cb4-85a4-44af-9b71-cb40f4af6b8d",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|96900000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|9573d80b-c513-4f73-b608-d7cb30a6438a",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|97400000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|8396a119-3544-4ac0-97ca-3964ebcc37cf",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|97900000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|32945f0f-e686-4e9e-9f8a-9212e33bde73",
+          "Fine for USB-C footprint"
+        ],
+        [
+          "copper_edge_clearance|98700000|175750000|315d7e79-fe1e-4601-9b74-e7d9304c3bd5|2081001d-052b-4273-b0cb-386527eb021a",
+          "Fine for USB-C footprint"
+        ],
+        [
           "starved_thermal|100456801|133919530|b0c78dd0-a051-45e5-b7fa-88fbf24d217f|040a0242-b4bf-4287-a628-c1b439159655|F.Cu",
           "Not possible in this configuratio"
         ]
@@ -89,7 +137,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "ignore",
         "creepage": "error",
@@ -103,7 +151,7 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "hole_clearance": "warning",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -119,14 +167,14 @@
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
-        "net_conflict": "ignore",
+        "net_conflict": "error",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
+        "silk_over_copper": "warning",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -146,14 +194,14 @@
         "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "ignore",
+        "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
