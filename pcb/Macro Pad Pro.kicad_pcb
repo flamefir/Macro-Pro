@@ -57650,7 +57650,7 @@
 		(uuid "e6d1bde2-5c76-4bff-872e-b54c2984836b")
 		(at 79.12 130.345)
 		(property "Reference" "C1"
-			(at -0.41 -1.27 0)
+			(at -2.36 0.02 0)
 			(layer "F.SilkS")
 			(uuid "f3177ae0-b65c-4270-87a5-e7883be1705b")
 			(effects
@@ -69039,6 +69039,14 @@
 		(uuid "232ee34c-e4b7-4d2d-b320-0c849878dad1")
 	)
 	(segment
+		(start 62.71 165.425)
+		(end 62.71 165.395)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+5V")
+		(uuid "2b1cc396-400e-4b12-b4f3-454617d60cbd")
+	)
+	(segment
 		(start 104.578 92.323)
 		(end 104.56 92.305)
 		(width 0.4)
@@ -69118,6 +69126,14 @@
 		(uuid "3f39a285-5172-4907-b003-a97ffc9ddc7c")
 	)
 	(segment
+		(start 51.26 169.765)
+		(end 58.37 169.765)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+5V")
+		(uuid "4185eae3-9c77-4ca4-b944-277aacfe7002")
+	)
+	(segment
 		(start 100.81 164.271)
 		(end 100.81 161.821)
 		(width 0.4)
@@ -69153,14 +69169,6 @@
 		(uuid "51865f0a-3a69-4567-86b2-12c78ecf3b5b")
 	)
 	(segment
-		(start 62.71 165.685)
-		(end 62.71 165.395)
-		(width 0.4)
-		(layer "B.Cu")
-		(net "+5V")
-		(uuid "5d795b8e-be06-4809-9060-cedd891fe168")
-	)
-	(segment
 		(start 142.72 55.505)
 		(end 142.72 66.675)
 		(width 0.4)
@@ -69177,15 +69185,6 @@
 		(layer "B.Cu")
 		(net "+5V")
 		(uuid "69d972a0-7aaa-4bc4-8f96-e38098abed4e")
-	)
-	(segment
-		(start 51.26 169.765)
-		(end 58.63 169.765)
-		(width 0.4)
-		(locked yes)
-		(layer "B.Cu")
-		(net "+5V")
-		(uuid "77e30b4f-2b78-4f37-949e-3ae1c605f823")
 	)
 	(segment
 		(start 66.5 92.305)
@@ -69319,15 +69318,6 @@
 		(uuid "d0ece4e9-62ad-4de5-90a5-700246336a0b")
 	)
 	(segment
-		(start 58.63 169.765)
-		(end 62.71 165.685)
-		(width 0.4)
-		(locked yes)
-		(layer "B.Cu")
-		(net "+5V")
-		(uuid "d22303e9-54c4-4c14-bd78-0d1ddb266847")
-	)
-	(segment
 		(start 142.72 104.415)
 		(end 142.71 104.425)
 		(width 0.4)
@@ -69352,6 +69342,14 @@
 		(layer "B.Cu")
 		(net "+5V")
 		(uuid "dd5f2e4f-d4e9-4e88-a70a-c806c82ce72b")
+	)
+	(segment
+		(start 58.37 169.765)
+		(end 62.71 165.425)
+		(width 0.4)
+		(layer "B.Cu")
+		(net "+5V")
+		(uuid "de9d3f95-fb39-4af5-a786-dab1cdcbd0b0")
 	)
 	(segment
 		(start 104.578 92.323)
