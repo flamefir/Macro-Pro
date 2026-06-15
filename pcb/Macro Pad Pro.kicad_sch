@@ -3070,259 +3070,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_marbastlib-mx:MX_SK6812MINI-E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 3.175 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MX_SK6812MINI-E"
-				(at 10.16 -6.985 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "reverse mount led revmount rgb"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MX_SK6812MINI-E_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "MX_SK6812MINI-E_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MX_SK6812MINI-E_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "R_Small_9"
 			(pin_numbers
 				(hide yes)
@@ -14737,16 +14484,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 232.41) (xy 261.62 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750a775c-62be-4cb8-95b1-327b43fb27d4")
-	)
-	(wire
-		(pts
 			(xy 88.9 260.35) (xy 87.63 260.35)
 		)
 		(stroke
@@ -19692,7 +19429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 157.48 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -25651,7 +25388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 184.15 31.75 180)
 		(unit 1)
 		(body_style 1)
@@ -26308,85 +26045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 261.62 233.68 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3281e678-7dd2-42ea-a806-1dfe67f9692f")
-		(property "Reference" "#FLG04"
-			(at 261.62 235.585 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 261.62 237.8131 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 261.62 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de3966ed-1bd3-4d6c-8b0c-f6abc74ceeee")
-		)
-		(instances
-			(project "Macro Pad Pro"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 73.66 110.49 90)
 		(unit 1)
@@ -26505,7 +26163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 142.24 106.68 270)
 		(unit 1)
 		(body_style 1)
@@ -26536,7 +26194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
 			(at 142.24 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -28693,7 +28351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 157.48 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -29326,7 +28984,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 302.26 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -31110,7 +30768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 142.24 82.55 270)
 		(unit 1)
 		(body_style 1)
@@ -31141,7 +30799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:LED_MX_6028R"
+		(property "Footprint" "PCM_marbastlib-mx:LED_MX_6028R"
 			(at 142.24 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -31864,7 +31522,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 257.81 138.43 0)
 		(mirror y)
 		(unit 1)
@@ -31951,7 +31609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 233.68 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -32211,7 +31869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 209.55 138.43 0)
 		(mirror y)
 		(unit 1)
@@ -34482,84 +34140,6 @@
 			(project "Macro Pad Pro"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 261.62 232.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69ed7154-c1d0-48d4-9e9c-ad88ba098b7b")
-		(property "Reference" "#PWR055"
-			(at 261.62 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 261.62 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 261.62 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fd6decd-c56a-4190-9a56-acb28bc778bd")
-		)
-		(instances
-			(project "Macro Pad Pro"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -38129,7 +37709,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 257.81 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -38374,7 +37954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 328.93 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -39247,7 +38827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 158.75 31.75 180)
 		(unit 1)
 		(body_style 1)
@@ -41194,7 +40774,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 209.55 31.75 180)
 		(unit 1)
 		(body_style 1)
@@ -43390,7 +42970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 184.15 138.43 0)
 		(mirror y)
 		(unit 1)
@@ -45069,7 +44649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 209.55 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -50590,7 +50170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 233.68 138.43 0)
 		(mirror y)
 		(unit 1)
@@ -50677,7 +50257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 382.27 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -53159,7 +52739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 184.15 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -57433,7 +57013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
+		(lib_id "personal:MX_SK6812MINI-E")
 		(at 355.6 123.19 0)
 		(unit 1)
 		(body_style 1)

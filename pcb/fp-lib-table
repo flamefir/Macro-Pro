@@ -3,4 +3,6 @@
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
 	(lib (name "Personal") (type "KiCad") (uri "C:/private repos/Macro-Pro/kicad_lib/Components/Personal.pretty") (options "") (descr ""))
 	(lib (name "Personal") (type "KiCad") (uri "C:/private repos/Macro-Pro/kicad_lib/Components/Personal.pretty") (options "") (descr ""))
+	(lib (name "Personal") (type "KiCad") (uri "C:/Repos/Macro-Pro/kicad_lib/Components/Personal.pretty") (options "") (descr ""))
+	(lib (name "Personal") (type "KiCad") (uri "${KIPRJMOD}/Personal.pretty") (options "") (descr ""))
 )
