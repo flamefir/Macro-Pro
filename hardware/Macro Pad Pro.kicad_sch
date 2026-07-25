@@ -4174,159 +4174,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse_Small"
-				(at 0 1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Fuse, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Fuse_Small_0_1"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -13664,12 +13511,6 @@
 		(uuid "cf33ecba-afe8-493e-96b6-0a7e50cc9dbf")
 	)
 	(junction
-		(at 205.74 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7682273-787f-486c-b350-9824e4a0971c")
-	)
-	(junction
 		(at 64.77 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13764,6 +13605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f94fe513-5723-497f-9bf4-55906f75257b")
+	)
+	(junction
+		(at 205.74 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "facf6fc8-1e93-48b2-9592-4eb6d0c82660")
 	)
 	(no_connect
 		(at 134.62 250.19)
@@ -16829,7 +16676,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 236.22) (xy 195.58 236.22)
+			(xy 191.77 236.22) (xy 205.74 236.22)
 		)
 		(stroke
 			(width 0)
@@ -16986,16 +16833,6 @@
 			(type default)
 		)
 		(uuid "ca8f48fa-c939-46d7-b86e-56563c5bedd5")
-	)
-	(wire
-		(pts
-			(xy 200.66 236.22) (xy 205.74 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd111543-1216-4a5c-b229-2e0c70ef4bb3")
 	)
 	(wire
 		(pts
@@ -25051,7 +24888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:10uF_0805_CAPC3216X180N"
+		(property "Footprint" "Personal:10uf_0805_CAPC2012X145N"
 			(at 195.58 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -28298,7 +28135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:10uF_0805_CAPC3216X180N"
+		(property "Footprint" "Personal:10uf_0805_CAPC2012X145N"
 			(at 228.6 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -31240,107 +31077,6 @@
 			(project "Macro Pad Pro"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 198.12 236.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72f07881-a02a-4feb-8edc-079f15cca097")
-		(property "Reference" "F2"
-			(at 198.12 231.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1A"
-			(at 198.12 234.442 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Fuse_0603"
-			(at 198.12 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 198.12 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C210357"
-			(at 198.12 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MF-FSMF050X-2"
-			(at 198.12 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01bd4c13-e71c-489b-929c-ecc371fc5c89")
-		)
-		(pin "2"
-			(uuid "3c354683-f2b0-45c2-8ea4-5dccbec35dbe")
-		)
-		(instances
-			(project "Macro Pad Pro"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "F2")
 					(unit 1)
 				)
 			)
